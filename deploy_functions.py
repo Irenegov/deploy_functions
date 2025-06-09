@@ -1,7 +1,8 @@
 from tabpy.tabpy_tools.client import Client
 
 # URL de tu servidor TabPy en Render
-client = Client('http://tabpy-on-render.onrender.com:9004')
+client = Client('http://tabpy-on-render.onrender.com/')
+
 import numpy as np
 
 def ewma_tableau(arg1):
